@@ -23,7 +23,7 @@ const team = [
 
 let ourTeamContainer = document.getElementById('ourTeam-container');
 let teamCard = document.getElementById('card-team');
-console.log(teamCard);
+
 
     for (let i = 0; i < team.length; i++){
         let element = team[i];
@@ -36,7 +36,9 @@ console.log(teamCard);
 ourTeamContainer.innerHTML += `
     <div class="team-card">
      <div class="card-image">
-       <p>${element.foto}</p>
+     <img
+     src="img/${element.foto}"
+   />
     </div>
      <div class="card-text">
        <h3>${element.nome}</h3>
