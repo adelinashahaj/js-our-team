@@ -35,11 +35,9 @@ let teamCard = document.getElementById('card-team');
         
 ourTeamContainer.innerHTML += `
     <div class="team-card">
-     <div class="card-image">
      <img
      src="img/${element.foto}"
    />
-    </div>
      <div class="card-text">
        <h3>${element.nome}</h3>
        <p>${element.ruolo}</p>
